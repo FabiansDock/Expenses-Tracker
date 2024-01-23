@@ -3,14 +3,10 @@ import "./App.css";
 import Form from "./Components/Form";
 import ExpenseList from "./Components/ExpenseList";
 import ExpenseListFilter from "./Components/ExpenseListFilter";
+import { Expense } from "./Components/ExpenseList/ExpenseList";
 
 function App() {
-  const [expenses, setExpenses] = useState([
-    { id: 1, description: "aaa", amount: 10, category: "Utilities" },
-    { id: 2, description: "bbb", amount: 20, category: "Entertainment" },
-    { id: 3, description: "ccc", amount: 30, category: "Groceries" },
-    { id: 4, description: "ddd", amount: 40, category: "Utilities" },
-  ]);
+  const [expenses, setExpenses] = useState<Expense[]>([]);
   const [selectedCategory, setSelectedCategory] = useState("");
   let showExpenseList = true;
   if (!expenses.length) {
