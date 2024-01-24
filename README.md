@@ -9,8 +9,8 @@ A simple expense tracker which takes in 3 input fields: Description, Amount and 
 3. Run `npm install` to install dependencies.
 
 ## Usage
-1. Run the application with `npm start`.
-2. Open your browser and navigate to `http://localhost:3000`.
+1. Run the application with `npm run dev`.
+2. Open your browser and navigate to `http://localhost:5174` or the local host link shown under Local.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
