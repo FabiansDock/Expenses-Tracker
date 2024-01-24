@@ -12,5 +12,8 @@ A simple expense tracker which takes in 3 input fields: Description, Amount and 
 1. Run the application with `npm run dev`.
 2. Open your browser and navigate to `http://localhost:5174` or the local host link shown under Local.
 
+## Netlify Deployment Link
+https://teal-pika-cf22bc.netlify.app/
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
